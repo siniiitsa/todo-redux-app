@@ -1,0 +1,28 @@
+.item-label {
+  font-size: 1.25rem;
+}
+
+.item-btn {
+  width: 38px;
+  height: 38px;
+  text-align: center;
+}
+
+.item-label {
+  line-height: 36px;
+  cursor: pointer;
+}
+
+.item-label.item-important {
+  font-weight: 700;
+  color: CRIMSON;
+}
+
+.item-label.item-important::after {
+  content: '!';
+}
+
+.item-label.item-done {
+  text-decoration: line-through;
+  color: darkgrey;
+}
