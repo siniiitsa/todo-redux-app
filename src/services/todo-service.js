@@ -1,7 +1,7 @@
 import { generateID } from '../utils';
 
 class TodoService {
-  _apiURL = 'http://jsonplaceholder.typicode.com/todos';
+  _apiURL = 'https://jsonplaceholder.typicode.com/todos';
 
   async getTodoItems(url = this._apiURL) {
     const res = await fetch(url);
